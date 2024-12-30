@@ -1,0 +1,65 @@
+.popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    min-height: 90vh; /* Menggunakan min-height agar konten memanjang */
+    box-sizing: border-box; /* Pastikan padding tidak menambah ukuran */
+}
+
+.popular h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0; /* Menghapus margin default */
+}
+
+.popular hr {
+    width: 200px;
+    height: 5px;
+    border-radius: 10px;
+    background: #252525;
+    margin: 10px 0;
+}
+
+.popular-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Kurangi jarak antar item */
+    justify-content: center; /* Item diposisikan di tengah */
+}
+
+
+/* Responsif untuk tablet */
+@media (max-width: 1024px) {
+    .popular h1 {
+        font-size: 40px; /* Mengurangi ukuran font */
+    }
+
+    .popular hr {
+        width: 150px; /* Menyesuaikan garis pemisah */
+    }
+
+    .popular-item {
+        gap: 20px; /* Kurangi jarak antar item */
+    }
+}
+
+/* Responsif untuk ponsel */
+@media (max-width: 768px) {
+    .popular h1 {
+        font-size: 30px; /* Ukuran font lebih kecil */
+    }
+
+    .popular hr {
+        width: 100px;
+        height: 4px;
+    }
+
+    .popular-item {
+        gap: 15px; /* Jarak antar item lebih kecil */
+        margin-top: 20px;
+    }
+}

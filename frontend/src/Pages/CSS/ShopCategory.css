@@ -1,0 +1,116 @@
+/* Kontainer utama */
+.shop-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    background: #f9f9f9; /* Warna latar belakang */
+}
+
+.shopcategory-banner {
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+    border-radius: 10px;
+}
+
+.shop-category h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+
+.shop-category hr {
+    width: 200px;
+    height: 5px;
+    border-radius: 10px;
+    background: #252525;
+    margin: 10px 0 20px;
+}
+
+/* Index dan Sort */
+.shopcategory-indexSort {
+    display: flex;
+    margin: 0px 170px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.shopcategory-sort {
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.shopcategory-sort:hover {
+    background: #e6e6e6;
+}
+
+/* Grid untuk produk */
+.shopcategory-products {
+    margin: 20px 170px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+/* Styling untuk item */
+.shopcategory-products .new-collections-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.shopcategory-products .new-collections-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Responsif untuk tablet */
+@media (max-width: 1024px) {
+    .shopcategory-products {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+/* Responsif untuk ponsel */
+@media (max-width: 768px) {
+    .shopcategory-products {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .shop-category h1 {
+        font-size: 30px;
+    }
+
+    .shop-category hr {
+        width: 100px;
+        height: 3px;
+    }
+}
+.shopcategory-loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    background: #ededed;
+    color: #787878;
+    font-size: 18px;
+    font-weight: 250;
+}

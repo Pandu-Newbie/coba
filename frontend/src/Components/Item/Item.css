@@ -1,0 +1,39 @@
+.item {
+    width: 250px; /* Batasi lebar maksimal item */
+    text-align: start; /* Pusatkan isi item */
+}
+
+.item img {
+    width: 100%; /* Gambar akan menyesuaikan lebar parent */
+    height: auto; /* Pertahankan proporsi gambar */
+    object-fit: cover; /* Pastikan gambar terpotong dengan proporsional jika perlu */
+    max-height: auto; /* Batasi tinggi maksimum gambar */
+}
+
+.item p {
+    margin: 6px 0px;
+    font-size: 14px; /* Kurangi ukuran teks agar lebih pas */
+}
+
+.item-prices {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+.item-price-new{
+    color: #374151;
+    font-size: 14px;
+    font-weight: 600;
+}
+.item-price-old {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: line-through; /* Perkecil ukuran harga */
+}
+
+.item:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}

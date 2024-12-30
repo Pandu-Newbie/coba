@@ -1,0 +1,65 @@
+.offers {
+    width: 65%;
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    padding: 0px 80px; /* Kurangi padding untuk rapi */
+    margin-bottom: 100px;
+    background: linear-gradient(to right, #FFB347, #FFCC33);
+    border-radius: 20px; /* Sudut komponen masih melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Tetap tambahkan bayangan */
+}
+
+.offers-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.offers-left h1 {
+    color: #171717;
+    font-size: 60px; /* Kurangi ukuran font */
+    font-weight: 600;
+}
+
+.offers-left p {
+    color: #171717;
+    font-size: 18px; /* Kurangi ukuran font */
+    font-weight: 500;
+}
+
+.offers-left button {
+    width: 220px; /* Kurangi lebar tombol */
+    height: 60px;
+    border-radius: 30px;
+    background: #ff4141;
+    border: none; /* Border dihapus */
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Animasi halus saat hover */
+}
+
+.offers-left button:hover {
+    background: #e63636; /* Efek hover pada tombol */
+    transform: scale(1.05); /* Sedikit membesarkan tombol */
+}
+
+.offers-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.offers-right img {
+    max-width: 80%; /* Batasi ukuran gambar */
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tetap tambahkan bayangan */
+    border-radius: 20px; /* Sudut melengkung tetap digunakan */
+}

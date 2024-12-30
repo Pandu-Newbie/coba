@@ -1,0 +1,233 @@
+.footer {
+    background-color: #111;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .newsletter-section {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .newsletter-section h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFCC33;
+  }
+  
+  .newsletter-section p {
+    font-size: 18px;
+    color: #bbb;
+  }
+  
+  .input-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .input-section input {
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 20px;
+    border: 1px solid #e3e3e3;
+    margin-right: 20px;
+  }
+  
+  .input-section button {
+    width: 150px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+  }
+  
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    flex: 1;
+  }
+  
+  .footer-left h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFCC33;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .social-icons svg {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .footer-center h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFCC33;
+  }
+  
+  .footer-center ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-center ul li {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #bbb;
+    cursor: pointer;
+  }
+  
+  .footer-right h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFCC33;
+  }
+  
+  .footer-right ul li {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #bbb;
+    cursor: pointer;
+  }
+  .footer {
+  background-color: #111;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.newsletter-section {
+  background-color: #FFCC33;  /* Kuning untuk latar belakang */
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 30px 0;  /* Padding agar ada ruang di sekitar elemen */
+  border-radius: 20px;  /* Membuat sudut lebih melengkung */
+}
+
+.newsletter-section h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #454545;  /* Warna teks gelap */
+}
+
+.newsletter-section p {
+  font-size: 18px;
+  color: #454545;  /* Warna teks gelap */
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input-section input {
+  width: 400px;
+  height: 40px;
+  border-radius: 30px;
+  padding-left: 20px;
+  border: none;  /* Menghilangkan border */
+  outline: none;  /* Menghilangkan outline */
+  color: #616161;  /* Warna teks input */
+  font-size: 16px;
+}
+
+.input-section button {
+  width: 150px;
+  height: 40px;
+  background-color: #000;  /* Warna latar belakang tombol */
+  color: #fff;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;  /* Menghilangkan border */
+}
+
+.input-section button:hover {
+  background-color: #333;  /* Hover effect untuk tombol */
+}
+.footer {
+    background: linear-gradient(to top, #111 50%, #FFCC33 50%); /* Gradien hitam di atas dan kuning di bawah */
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .newsletter-section {
+    background-color: #FFCC33;  /* Kuning untuk latar belakang */
+    padding: 30px 0;
+    border-radius: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .footer-logo {
+    width: 100px;  /* Atur ukuran logo sesuai kebutuhan */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-section h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #454545;  /* Warna teks gelap */
+  }
+  
+  .newsletter-section p {
+    font-size: 18px;
+    color: #454545;  /* Warna teks gelap */
+  }
+  
+  .input-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .input-section input {
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    color: #616161;
+    font-size: 16px;
+  }
+  .footer-logo {
+    width: 120px;  /* Adjust width as per your design */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .input-section button {
+    width: 150px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .input-section button:hover {
+    background-color: #333;
+  }
+  

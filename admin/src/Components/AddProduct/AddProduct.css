@@ -1,0 +1,76 @@
+/* AddProduct.css */
+.add-product {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px 50px;
+    margin: 20px auto;
+    border-radius: 6px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.addproduct-itemfield {
+    width: 100%;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+.addproduct-itemfield input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+.addproduct-itemfield input:focus {
+    border-color: #ffc24c;
+    box-shadow: 0 0 5px rgba(255, 194, 76, 0.5);
+}
+.addproduct-price {
+    display: flex;
+    gap: 20px;
+}
+.add-product-selector {
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+}
+.addproduct-thumnail-img {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    object-fit: contain;
+    margin: 10px 0px;
+    border: 2px dashed #ffc24c;
+    display: block;
+}
+.addproduct-btn {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 200px;
+    height: 50px;
+    border-radius: 6px;
+    background: #ffc24c;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.addproduct-btn:hover {
+    background: #e6a832;
+    transform: scale(1.05);
+}
